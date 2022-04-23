@@ -4,20 +4,20 @@
 
     // State
     let state = 'stock';
-    function setSales() {
-        state = 'sales';
-    }
     function setStock() {
         state = 'stock';
+    }
+    function setSales() {
+        state = 'sales';
     }
 </script>
 
 <div class="main-content">
-    <Button on:click="setStock">
+    <Button on:click={setStock}>
         <p>Stock</p>
     </Button>
 
-    <Button on:click="setStock">
+    <Button on:click={setSales}>
         <p>Sales</p>
     </Button>
 </div>
