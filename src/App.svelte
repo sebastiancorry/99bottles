@@ -24,7 +24,7 @@
 
 <style>
     .main-content{
-        /* Colors */
+        /* Color */
         background-color: #FFFFF0;
 
         /* Miscellaneous properties */
@@ -35,7 +35,7 @@
         max-height: 100vh;
         max-width: 80vw;
 
-        /* Rounded corners */
+        /* Shape */
         border-radius: 5px;
         padding: 20px;
 
