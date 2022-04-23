@@ -20,6 +20,14 @@
     <Button on:click={setSales}>
         <p>Sales</p>
     </Button>
+
+    {#if state === 'stock'} 
+        <p>Stock</p>
+    {:else if state === 'sales'}
+        <p>Sales</p>
+    {:else}
+        <p>ERROR: Unknown state</p>
+    {/if}
 </div>
 
 <style>
