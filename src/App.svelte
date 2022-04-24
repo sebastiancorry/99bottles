@@ -13,14 +13,15 @@
 </script>
 
 <div class="main-content">
+    <!-- Tabs -->
     <Button on:click={setStock}>
         <p>Stock</p>
     </Button>
-
     <Button on:click={setSales}>
         <p>Sales</p>
     </Button>
 
+    <!-- Content -->
     {#if state === 'stock'} 
         <p>Stock</p>
     {:else if state === 'sales'}
